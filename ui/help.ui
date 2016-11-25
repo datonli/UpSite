@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>437</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>操作说明</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>本软件使用简单，操作人性化。下面是操作说明。
+窗口简单，主要分为三大模块：
+1.基本信息；
+2.文件操作；
+3.记录查询。
+
+基本查询中实现了两大功能——实时显示和设置参数相关。
+文件操作中主要包含了链接下位机，读取下位机中文件情况，并能够接收、删除等操作。
+记录查询是主要的信息显示模块。在将下位机导入到PC之后，在文件管理目录下能够直接找到该文件，导入文件到窗口中可以看到该文件的数据表格和曲线图，并能够进行记录查询。</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../UpSite.qrc"/>
+ </resources>
+ <connections/>
+</ui>

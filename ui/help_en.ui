@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>437</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Operation Information</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>The software is simple to use and user-friendly operation The following is a description of the operation.
+The window is simple, mainly divided into three modules:
+1 Basic information;
+2 file operation;
+3 record query.
+The basic query achieves two functions: real-time display and set the relevant parameters
+File operations mainly include the link to the next bit machine, read the next bit machine file, and be able to receive, delete and other operations.
+Record query is the main information display module. In the next bit machine into the PC, in the file management directory can directly find the file, import the file into the window can see the file data tables and graphs, and can record query.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../UpSite.qrc"/>
+ </resources>
+ <connections/>
+</ui>

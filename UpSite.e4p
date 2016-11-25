@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project UpSite -->
+<!-- Saved: 2016-05-22, 19:45:16 -->
+<!-- Copyright (C) 2016 lidatong, osdaniellee@gmail.com -->
+<Project version="5.1">
+  <Language></Language>
+  <Hash>80dd99e7e9c43dce731a96fe03f34f05ff499a61</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author>lidatong</Author>
+  <Email>osdaniellee@gmail.com</Email>
+  <Eol index="-1"/>
+  <Sources>
+    <Source>Main_UpSite.py</Source>
+    <Source>__init__.py</Source>
+    <Source>commu/CommuMain.py</Source>
+    <Source>commu/Translate.py</Source>
+    <Source>commu/UsbDevice.py</Source>
+    <Source>main.py</Source>
+    <Source>test/plt.py</Source>
+    <Source>test/pyqt4_matplotlib.py</Source>
+    <Source>ui/Ui_ReturnInfo.py</Source>
+    <Source>ui/Ui_ReturnInfo_en.py</Source>
+    <Source>ui/Ui_UpSite.py</Source>
+    <Source>ui/Ui_UpSite_en.py</Source>
+    <Source>ui/Ui_about.py</Source>
+    <Source>ui/Ui_about_en.py</Source>
+    <Source>ui/Ui_help.py</Source>
+    <Source>ui/Ui_help_en.py</Source>
+    <Source>ui/Ui_timer.py</Source>
+    <Source>ui/Ui_timer_en.py</Source>
+  </Sources>
+  <Forms>
+    <Form>ui/ReturnInfo.ui</Form>
+    <Form>ui/ReturnInfo_en.ui</Form>
+    <Form>ui/UpSite.ui</Form>
+    <Form>ui/UpSite_en.ui</Form>
+    <Form>ui/about.ui</Form>
+    <Form>ui/about_en.ui</Form>
+    <Form>ui/help.ui</Form>
+    <Form>ui/help_en.ui</Form>
+    <Form>ui/timer.ui</Form>
+    <Form>ui/timer_en.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources>
+    <Resource>UpSite.qrc</Resource>
+  </Resources>
+  <Interfaces/>
+  <Others/>
+  <MainScript>main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+  </FiletypeAssociations>
+</Project>
